@@ -2,6 +2,7 @@ import { Fragment } from 'react';
 import Header from '../../components/Header';
 import Menu from '../../components/Menu';
 import Banner from '../../components/Banner';
+import Footer from '../../components/Footer';
 import './styles.scss';
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
           <Banner />
         </section>
       </main>
+      <Footer />
     </Fragment>
   )
 }
