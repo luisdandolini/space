@@ -1,9 +1,9 @@
 import { Fragment } from 'react';
+import './styles.scss';
 import Header from '../../components/Header';
 import Menu from '../../components/Menu';
 import Banner from '../../components/Banner';
 import Footer from '../../components/Footer';
-import './styles.scss';
 import Galeria from '../../components/Galeria';
 import Populares from '../../components/Populares';
 
