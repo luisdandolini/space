@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 import Header from '../../components/Header';
 import Menu from '../../components/Menu';
-import Banner from '../../assets/banner.png';
+import Banner from '../../components/Banner';
 import './styles.scss';
 
 export default function Home() {
@@ -11,10 +11,7 @@ export default function Home() {
       <main>
         <section className='first'>
           <Menu />
-          <div className='first__image'>
-            <h1>A galeria mais completa do espaço</h1>
-            <img src={Banner} alt="A imagem da terra vista do espaço" />
-          </div>
+          <Banner />
         </section>
       </main>
     </Fragment>
