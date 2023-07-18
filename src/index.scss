@@ -5,6 +5,11 @@
   font-family: 'Nunito', sans-serif;
 }
 
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(#041833, #154580);
+}
+
 a {
   text-decoration: none;
 }
