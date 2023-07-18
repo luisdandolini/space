@@ -1,3 +1,5 @@
+@import "./variables";
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +8,7 @@
 
 body {
   min-height: 100vh;
-  background-image: linear-gradient(#041833, #154580);
+  background-image: linear-gradient($azul-escuro, $azul-claro);
 }
 
 body::-webkit-scrollbar {
@@ -14,11 +16,11 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: linear-gradient(#041833, #154580);
+  background-image: linear-gradient($azul-escuro, $azul-claro);
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #154580;
+  background-color: $azul-claro;
   border-radius: 20px;
 }
 
