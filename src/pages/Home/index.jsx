@@ -5,6 +5,7 @@ import Banner from '../../components/Banner';
 import Footer from '../../components/Footer';
 import './styles.scss';
 import Galeria from '../../components/Galeria';
+import Populares from '../../components/Populares';
 
 export default function Home() {
   return(
@@ -15,10 +16,11 @@ export default function Home() {
           <Menu />
           <Banner />
         </section>
+        <div className='galeria__home'>
+          <Galeria />
+          <Populares />
+        </div>
       </main>
-      <div>
-        <Galeria />
-      </div>
       <Footer />
     </Fragment>
   )
